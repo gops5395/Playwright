@@ -1,0 +1,19 @@
+{
+  "name": "playwright_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test /tests/WebAPI_StroreAllKeys.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.10"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.6.0"
+  }
+}
